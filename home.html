@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="scripts/randomiser_script.js"></script>
+
+
+  <title>YouTube Video Title Generator</title>
+
+
+
+</head>
+
+<body>
+<!-- Nav Bar -->
+<!--  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#">Euan Mitchell</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </nav> -->
+
+
+  <!-- Title Box -->
+  <div class="jumbotron text-center">
+    <h1>YouTube Video Title Generator For Chuds!</h1>
+    <p>Don't put any thought into it, let this generator own the libs for you!</p>
+  </div>
+
+  <div class="">
+
+  </div>
+
+
+  <!-- Dropdown menu for chud -->
+  <div class="container">
+    <div class="form-group col-md-6">
+      <label for="inputBasedGuy">Enter a based king! (Or leave blank for a random one)</label>
+      <input id="inputBasedGuy" class="form-control"></input>
+    </div>
+  </div>
+
+  <!-- Dropdown menu for video target -->
+  <div class="container">
+    <div class="form-group col-md-6">
+      <label for="inputSoyCuck">Enter a soy cuck! (Or leave blank for a random one)</label>
+      <input id="inputSoyCuck" class="form-control"></input>
+    </div>
+  </div>
+
+  <!-- Button to generate title -->
+  <div class="container">
+    <div class="form-group col-md-6">
+    <button id="button" type="submit" class="btn btn-primary">Generate</button>
+    <!-- Onclick function calls -->
+    <script>
+    $("#button").click(function(){
+    $("#vidTitle").text('');
+    $("#vidTitle").append(selectChud()+' '+selectVerb()+' '+selectLefty()+' With '+selectAdjective()+' '+selectEnding());
+    console.log("Button pressed");
+    });
+    </script>
+    </div>
+  </div>
+
+
+  <!-- Generated output -->
+  <div class="jumbotron text-center">
+    <div id="output">
+      <h1 id="vidTitle"></h1>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <span class="text-muted">Euan Mitchell 2020            <a href="https://www.google.com">GitHub</a></span>
+    </div>
+  </footer>
+
+</body>
+
+
+</html>
