@@ -43,7 +43,7 @@ function selectLefty() {
                    "Chris Cuomo","Pelosi","Nancy Pelosi","Chuck Schumer","Donna Brazile","BLM","Protestors","BLM Protests","Activists",
                    "Vegans","Protests","College Students","Islam","Migrant Rights Group","Mumble Rappers","Rappers","Rap Music","CNN",
                    "Liberal Media","The Woke Crowd","Snowflakes","SJWs","Pride Month","Bernie Sanders","Biden","Civil Rights Group",
-                   "Establishment Media","Safe Spaces","Hollywood","Coastal Elites","Michele Obama","Hipsters"];
+                   "Establishment Media","Safe Spaces","Hollywood","Coastal Elites","Michele Obama","Hipsters","Selfie Culture"];
 
   if ($("#inputSoyCuck").val() !=""){
     return $("#inputSoyCuck").val();
