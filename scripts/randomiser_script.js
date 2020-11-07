@@ -26,7 +26,7 @@ function selectChud() {
                   "Alex Jones","Jordan Peterson","Joe Rogan","Laura Ingraham","Gavin McInnes","Sean Hannity","Judge Jeanine",
                   "Geraldo Rivera","Dave Rubin","Mikhaila Peterson","J.K. Rowling","Patriot","Black Guy","Sargon of Akkad","Ted Cruz",
                   "Pastor", "Greg Gutfeld","Navy SEAL","Marine","Trump Supporter","Ted Nugent","Rush Limbaugh","Jacob Rees-Mogg", "Boris Johnson",
-                  "Nigel Farage","Fox News"];
+                  "Nigel Farage","Fox News","Based Hispanic"];
 
   if ($("#inputBasedGuy").val() !=""){
     return $("#inputBasedGuy").val();
@@ -74,7 +74,7 @@ function selectAdjective() {
 
 function selectEnding() {
   var end = ["Facts","Logic","Facts & Logic","Reason","Reasoning","Arguments","Sanity","Judgement","Analysis","Data","Wit","Rationality","Sense",
-             "Rational Thinking","Rationalism","Wisdom","Judeo-Christian Values","Memes"];
+             "Rational Thinking","Rationalism","Wisdom","Judeo-Christian Values","Memes","Western Morals"];
 
   return randomise(end);
 }
