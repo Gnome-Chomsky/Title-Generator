@@ -26,7 +26,7 @@ function selectChud() {
                   "Alex Jones","Jordan Peterson","Joe Rogan","Laura Ingraham","Gavin McInnes","Sean Hannity","Judge Jeanine",
                   "Geraldo Rivera","Dave Rubin","Mikhaila Peterson","J.K. Rowling","Patriot","Black Guy","Sargon of Akkad","Ted Cruz",
                   "Pastor", "Greg Gutfeld","Navy SEAL","Marine","Trump Supporter","Ted Nugent","Rush Limbaugh","Jacob Rees-Mogg", "Boris Johnson",
-                  "Nigel Farage"];
+                  "Nigel Farage","Fox News"];
 
   if ($("#inputBasedGuy").val() !=""){
     return $("#inputBasedGuy").val();
